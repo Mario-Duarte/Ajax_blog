@@ -38,3 +38,8 @@ On your main posts page just add in a ```<div>``` wrapping your WordPress loop w
 A class ```.btn-load-more-posts``` is added to the ```next_post_link``` and a class ```.previous-post``` to the ```previous_post_link`` these have basic css aplied to them and can be easly over written on your theme style.
 
 If you feel brave these can also be modified in the plugin too.
+
+#### Licence
+
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+[Creative Commons Attribution-ShareAlike 4.0 International License] (http://creativecommons.org/licenses/by-sa/4.0)
