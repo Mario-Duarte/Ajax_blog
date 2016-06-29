@@ -3,8 +3,8 @@
 Wordpress plugin that loads next page of your blog using (Ajax) [http://api.jquery.com/jquery.ajax/], this plugin takes advantage of the way that Wordpress works making it really light wight. 
 
 ### Dependencies
-(WordPress) [https://wordpress.org/]
-(Jquery) [https://jquery.com/download/]
+[WordPress] (https://wordpress.org/)
+[Jquery] (https://jquery.com/download/)
 
 ## Usage
 
