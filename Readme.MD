@@ -8,9 +8,9 @@ Wordpress plugin that loads next page of your blog using (Ajax) [http://api.jque
 
 ## Usage
 
-On your main posts page just add in a '''<div>''' wrapping your WordPress loop with the class '''.post-wrapper''' and add your pagination as normal after the while loop.
+On your main posts page just add in a ```<div>``` wrapping your WordPress loop with the class ```.post-wrapper``` and add your pagination as normal after the while loop.
 
-'''php
+```php
 <div class="posts-wrapper">
   <?php 
     $args = array(
@@ -33,4 +33,4 @@ On your main posts page just add in a '''<div>''' wrapping your WordPress loop w
 
     </div> <!-- end posts-wrapper -->
   <?php wp_reset_postdata(); ?>
-'''
+```
