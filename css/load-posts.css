@@ -1,0 +1,31 @@
+.loading-more-posts {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.loading-more-posts a {
+  color: #212121;
+  background-color: #eee;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  margin: 20px auto;
+}
+
+.btn-load-more-posts {
+  color: #212121;
+  background-color: #FFFFF;
+  border: #ad8e5b 1px solid; /* change to black */
+  box-sizing: border-box;;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  margin: 20px auto;
+}
+
+.previus-posts {
+  display: none;
+}
