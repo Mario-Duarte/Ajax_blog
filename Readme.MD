@@ -4,8 +4,8 @@ Wordpress plugin that loads next page of your blog using [Ajax] (http://api.jque
 
 ### Dependencies
 
--[WordPress] (https://wordpress.org/)
--[Jquery] (https://jquery.com/download/)
+- [WordPress] (https://wordpress.org/)
+- [Jquery] (https://jquery.com/download/)
 
 ## Usage
 
