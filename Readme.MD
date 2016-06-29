@@ -3,8 +3,8 @@
 Wordpress plugin that loads next page of your blog using (Ajax) [http://api.jquery.com/jquery.ajax/], this plugin takes advantage of the way that Wordpress works making it really light wight. 
 
 ### Dependencies
-[WordPress] (https://wordpress.org/)
-[Jquery] (https://jquery.com/download/)
+-[WordPress] (https://wordpress.org/)
+-[Jquery] (https://jquery.com/download/)
 
 ## Usage
 
@@ -34,3 +34,6 @@ On your main posts page just add in a ```<div>``` wrapping your WordPress loop w
     </div> <!-- end posts-wrapper -->
   <?php wp_reset_postdata(); ?>
 ```
+A class ```.btn-load-more-posts``` is added to the ```next_post_link``` and a class ```.previous-post``` to the ```previous_post_link`` these have basic css aplied to them and can be easly over written on your theme style.
+
+If you feel brave these can also be modified in the plugin too.
