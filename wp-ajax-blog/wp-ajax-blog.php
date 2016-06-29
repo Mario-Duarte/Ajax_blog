@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: AJAX Blog Load Posts
- * Description: Wordpress load the next page of posts with AJAX.
+ * Plugin Name: WP Ajax Blog
+ * Description: Wordpress load the next page of posts dynamicly with ajax
  * Version: 1.0
  * Author: Mário Duarte
- *License: Public Domain
+ *License: Creative Commons
  */
 
 function ajax_blog_init() {
