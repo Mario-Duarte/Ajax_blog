@@ -1,6 +1,6 @@
 # WP Ajax Blog
 
-Wordpress plugin that loads next page of your blog using [Ajax] (http://api.jquery.com/jquery.ajax/), this plugin takes advantage of the way that Wordpress works making it really light wight. 
+Wordpress plugin that loads posts dynamivly using [Ajax] (http://api.jquery.com/jquery.ajax/), this plugin takes advantage of the way that Wordpress works making it really light wight. 
 
 ### Dependencies
 
