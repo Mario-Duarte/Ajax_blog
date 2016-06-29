@@ -17,7 +17,6 @@ jQuery(document).ready(function($){
             $('.loading-more-posts').remove();
             var newPosts = $('.posts-wrapper',dataObject).contents();
             $('.posts-wrapper').append( newPosts );
-            //console.log("ajax success" , $('.journal-post article',dataObject));
         },
         dataType: "html"
       });
