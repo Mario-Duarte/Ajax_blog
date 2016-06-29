@@ -37,6 +37,8 @@ On your main posts page just add in a ```<div>``` wrapping your WordPress loop w
 ```
 A class ```.btn-load-more-posts``` is added to the ```next_post_link``` and a class ```.previous-post``` to the ```previous_post_link`` these have basic css aplied to them and can be easly over written on your theme style.
 
+Currently the javascript only fires if it detects the class ```.blog``` on the body tag, so please make sure you loading the ```body_class();```  function on the body tag of your theme, not sure how to do this, check the [WordPress Documentation] (https://developer.wordpress.org/reference/functions/body_class/), this can be removed or changed in the load-posts.js file.  
+
 If you feel brave these can also be modified in the plugin too.
 
 #### Licence
