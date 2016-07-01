@@ -14,9 +14,22 @@ On your main posts page just add in a ```<div>``` wrapping your WordPress loop w
 ```php
 <div class="posts-wrapper">
   <?php 
+    $paged = $_GET['pagedNum'];
+		$limit = get_option('posts_per_page');
+
+
+
+		if(!isset($paged)|| $paged ==1){
+			$limit -= 1;
+			$offset = 0;
+		}
+		else{
+			$offset = ($limit-1)*($paged-1);
+		}
+
     $args = array(
-      'showposts' => 5,
-      'paged' => $paged
+      'showposts' => $limit,
+      'offset' => $offset
     );
     $wp_query = new WP_Query(); $wp_query->query($args);
     while ($wp_query->have_posts()) : $wp_query->the_post(); 
