@@ -15,17 +15,15 @@ On your main posts page just add in a ```<div>``` wrapping your WordPress loop w
 <div class="posts-wrapper">
   <?php 
     $paged = $_GET['pagedNum'];
-		$limit = get_option('posts_per_page');
-
-
-
-		if(!isset($paged)|| $paged ==1){
-			$limit -= 1;
-			$offset = 0;
-		}
-		else{
-			$offset = ($limit-1)*($paged-1);
-		}
+    $limit = get_option('posts_per_page');
+	
+	if(!isset($paged)|| $paged ==1){
+		$limit -= 1;
+		$offset = 0;
+	}
+	else{
+		$offset = ($limit-1)*($paged-1);
+	}
 
     $args = array(
       'showposts' => $limit,
